@@ -1,0 +1,151 @@
+  type="text/css">
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+        
+        body.xload {
+          font-family: 'Poppins', sans-serif;
+          background: #fff;
+        }
+        
+        
+        
+            
+            @keyframes zoom-in-zoom-out {
+                0% {transform: scale(1, 1);}
+                50% {transform: scale(1.1, 1.1);}
+                100% {transform: scale(1, 1);}
+            }
+
+            nav.nav {display: flex;justify-content: space-between;padding: 15px;align-items: center;}
+            nav.nav img {height: 30px;}
+            nav.nav i {font-size: 1.5rem;color: #485d46;}
+
+            nav.more {background-color: #4D5D45;padding: 12px;text-align: center;color: #fff;}
+            nav.more .item {display: inline-block;margin: 0 5px;font-size: .75rem;}
+
+
+
+.card {all: unset;}
+            @keyframes flip-top {
+  to {
+    transform: rotateX(90deg);
+  }
+}
+@keyframes flip-bottom {
+  to {
+    transform: rotateX(0deg);
+  }
+}
+
+  .more {
+            background-color: #f2f2f2;
+            padding: 10px;
+            margin: 10px 0;
+            text-align: center;
+        }
+          }
+        .item1 {
+            cursor: pointer;
+            background-image: linear-gradient(138deg, #ffc400 -41%, #ff4500 231%)!important;
+            color: #fff;
+            border-radius: 8px;
+            margin: 15px 0;
+            padding: 15px;
+            text-align: center;
+        }
+
+      
+
+        section {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            padding: 20px;
+        }
+
+
+        .book:hover {
+            transform: scale(1.05);
+        }
+
+        footer {
+            text-align: center;
+            padding: 1em 0;
+            color: #fff;
+        }
+    </style>
+  <style>
+  .bars a i {
+    color: white;
+            font-size: 20px;
+
+  } 
+   {
+            font-family: 'Tajawal', sans-serif;
+            color: #f7f7f7;
+            text-align: center;
+            background-color: #0f1111; 
+      font-size: 20px; 
+ 
+        }
+        .container-ls {
+            padding: 10px;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+   footer {
+            text-align: center;
+            font-size: 14px;
+            color: #000;
+            padding: 10px 0;
+                 color: #f7f7f7;
+            font-family: 'Tajawal', sans-serif;
+
+        }
+
+        .logo {
+            width: 80px;
+          height: 60px;
+            margin-top: 4px;
+        }
+        .item {
+            cursor: pointer;
+            background-image: linear-gradient(138deg, #ffc400 -41%, #ff4500 231%)!important;
+            color: #fff;
+            border-radius: 8px;
+            margin: 15px 0;
+            padding: 15px;
+            text-align: center;
+        }
+        .item img {
+            width: 114px;
+                    height: 57px;
+
+            margin-top: 10px;
+        }
+        .hero {
+            width: 100%;
+            margin: 20px 0;
+        }
+        .bt {
+            animation: zoom-in-zoom-out 1s ease infinite;
+        }
+        a, a:hover {
+            color: #fff;
+            text-decoration: none;
+        }
+        @keyframes zoom-in-zoom-out {
+            0% {transform: scale(1, 1);}
+            50% {transform: scale(1.1, 1.1);}
+            100% {transform: scale(1, 1);}
+        }
+        .content {
+            background-color: #fff;
+            padding: 25px;
+            border-radius: 10px;
+            margin: 20px 0;
+            color: black;
+            text-align: right;
+                      font-family: 'Tajawal', sans-serif;
+
+        }
+    
